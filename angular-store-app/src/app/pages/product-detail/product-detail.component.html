@@ -1,0 +1,11 @@
+<div class="container mt-4" *ngIf="product">
+  <div class="card">
+    <img [src]="product.image" class="card-img-top" alt="{{product.title}}">
+    <div class="card-body">
+      <h2 class="card-title">{{product.title}}</h2>
+      <p class="card-text">{{product.description}}</p>
+      <p class="card-text"><strong>{{product.price | currency:'EUR'}}</strong></p>
+      <a routerLink="/" class="btn btn-secondary">Retour</a>
+    </div>
+  </div>
+</div>

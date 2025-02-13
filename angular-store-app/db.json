@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "text",
+      "email": "t@example.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Nike Dunk Low Retro",
+      "description": "La Dunk est historiquement la chaussure préférée des équipes universitaires. Le pack « Be True To Your School » rend hommage à cet héritage en faisant revivre la première campagne promotionnelle de cette icône. Les couleurs représentent les grandes universités, tandis que le cuir impeccable ajoute la touche d'éclat parfaite pour illuminer ta voie vers la victoire. Alors, lace tes chaussures et laisse parler ta fierté. C'est parti ?",
+      "price": 100,
+      "image": "assets/product1.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Nike Dunk Low Retro",
+      "description": "La Dunk est historiquement la chaussure préférée des équipes universitaires. Le pack « Be True To Your School » rend hommage à cet héritage en faisant revivre la première campagne promotionnelle de cette icône. Les couleurs représentent les grandes universités, tandis que le cuir impeccable ajoute la touche d'éclat parfaite pour illuminer ta voie vers la victoire. Alors, lace tes chaussures et laisse parler ta fierté. C'est parti ?",
+      "price": 200,
+      "image": "assets/product2.png"
+    },
+    {
+      "id": 3,
+      "title": "Nike Dunk Low Retro",
+      "description": "La Dunk est historiquement la chaussure préférée des équipes universitaires. Le pack « Be True To Your School » rend hommage à cet héritage en faisant revivre la première campagne promotionnelle de cette icône. Les couleurs représentent les grandes universités, tandis que le cuir impeccable ajoute la touche d'éclat parfaite pour illuminer ta voie vers la victoire. Alors, lace tes chaussures et laisse parler ta fierté. C'est parti ?",
+      "price": 300,
+      "image": "assets/product3.png"
+    }
+  ]
+}

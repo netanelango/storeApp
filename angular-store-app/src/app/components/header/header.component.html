@@ -1,0 +1,12 @@
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">Angular Shop</a>
+    <span class="navbar-text" *ngIf="(user$ | async) as user">
+      Bonjour, {{ user?.email }}
+      <button class="btn btn-danger ms-3" (click)="logout()">Déconnexion</button>
+    </span>
+    <span class="navbar-text" *ngIf="!(user$ | async)">
+      <a routerLink="/login" class="btn btn-darck">Se connecter</a>
+    </span>
+  </div>
+</nav>
